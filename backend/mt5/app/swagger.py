@@ -11,12 +11,14 @@ swagger_config = {
         "https"
     ],
     "securityDefinitions": {
-        "ApiKeyAuth": {
+        "Bearer": {
             "type": "apiKey",
             "name": "Authorization",
-            "in": "header"
+            "in": "header",
+            "description": "Type: **Bearer &lt;your_token&gt;**"
         }
     },
+    "security": [{"Bearer": []}],
     "specs": [
         {
             "endpoint": 'apispec_1',

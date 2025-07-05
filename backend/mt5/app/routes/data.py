@@ -69,6 +69,7 @@ logger = logging.getLogger(__name__)
         }
     }
 })
+
 def fetch_data_pos_endpoint():
     """
     Fetch Data from Position
