@@ -31,8 +31,9 @@ def require_token_globally():
         '/health',
         '/apidocs',           # Swagger UI
         '/apidocs/',          # Swagger root
-        '/static',            # Swagger assets
-        '/favicon.ico'
+        '/flasgger_static/',            # Swagger assets
+        '/favicon.ico',
+        '/apispec_1.json'
     ]
 
     # Skip check for allowed paths
